@@ -43,7 +43,7 @@ jobs:
 
     - name: Policy Login
       id: policy-login
-      uses: opcr-io/policy-login-action@v1
+      uses: opcr-io/policy-login-action@v2
       with:
         username: ${{ steps.config.outputs.username }}
         password: ${{ secrets.ASERTO_BETA_PUSH_KEY }}
